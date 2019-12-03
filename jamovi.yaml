@@ -1,0 +1,323 @@
+---
+title: R data sets
+name: r-datasets
+version: '1.0.0'
+jms: '1.0'
+authors:
+  - The R Core Team
+maintainer: Jonathon Love <jon@thon.cc>
+date: '2018-09-18'
+description: >
+  This module provides the example data sets from R
+analyses: [ ]
+datasets:
+  - name: AirPassengers
+    path: "AirPassengers.csv"
+    description: "Monthly Airline Passenger Numbers 1949-1960"
+  - name: BJsales
+    path: BJsales.csv
+    description: "Sales Data with Leading Indicator"
+  - name: BOD
+    path: "BOD.csv"
+    description: "Biochemical Oxygen Demand"
+  - name: CO2
+    path: "CO2.csv"
+    description: "Carbon Dioxide Uptake in Grass Plants"
+  - name: ChickWeight
+    path: "ChickWeight.csv"
+    description: "Weight versus age of chicks on different diets"
+  - name: DNase
+    path: "DNase.csv"
+    description: "Elisa assay of DNase"
+  - name: EuStockMarkets
+    path: "EuStockMarkets.csv"
+    description: "Daily Closing Prices of Major European Stock Indices, 1991-1998"
+  - name: Formaldehyde
+    path: "Formaldehyde.csv"
+    description: "Determination of Formaldehyde"
+  - name: HairEyeColor
+    path: "HairEyeColor.csv"
+    description: "Hair and Eye Color of Statistics Students"
+  - name: "Harman23.cor"
+    path: "Harman23.cor.csv"
+    description: "Harman Example 2.3"
+  - name: "Harman74.cor"
+    path: "Harman74.cor.csv"
+    description: "Harman Example 7.4"
+  - name: Indometh
+    path: "Indometh.csv"
+    description: "Pharmacokinetics of Indomethacin"
+  - name: InsectSprays
+    path: "InsectSprays.csv"
+    description: "Effectiveness of Insect Sprays"
+  - name: JohnsonJohnson
+    path: "JohnsonJohnson.csv"
+    description: "Quarterly Earnings per Johnson & Johnson Share"
+  - name: LakeHuron
+    path: "LakeHuron.csv"
+    description: "Level of Lake Huron 1875-1972"
+  - name: LifeCycleSavings
+    path: "LifeCycleSavings.csv"
+    description: "Intercountry Life-Cycle Savings Data"
+  - name: Loblolly
+    path: "Loblolly.csv"
+    description: "Growth of Loblolly pine trees"
+  - name: Nile
+    path: "Nile.csv"
+    description: "Flow of the River Nile"
+  - name: Orange
+    path: "Orange.csv"
+    description: "Growth of Orange Trees"
+  - name: OrchardSprays
+    path: "OrchardSprays.csv"
+    description: "Potency of Orchard Sprays"
+  - name: PlantGrowth
+    path: "PlantGrowth.csv"
+    description: "Results from an Experiment on Plant Growth"
+  - name: Puromycin
+    path: "Puromycin.csv"
+    description: "Reaction Velocity of an Enzymatic Reaction"
+  - name: Seatbelts
+    path: "Seatbelts.csv"
+    description: "Road Casualties in Great Britain 1969-84"
+  - name: Theoph
+    path: "Theoph.csv"
+    description: "Pharmacokinetics of Theophylline"
+  - name: Titanic
+    path: "Titanic.csv"
+    description: "Survival of passengers on the Titanic"
+  - name: ToothGrowth
+    path: "ToothGrowth.csv"
+    description: "The Effect of Vitamin C on Tooth Growth in Guinea Pigs"
+  - name: UCBAdmissions
+    path: "UCBAdmissions.csv"
+    description: "Student Admissions at UC Berkeley"
+  - name: UKDriverDeaths
+    path: "UKDriverDeaths.csv"
+    description: "Road Casualties in Great Britain 1969-84"
+  - name: UKgas
+    path: "UKgas.csv"
+    description: "UK Quarterly Gas Consumption"
+  - name: USAccDeaths
+    path: "USAccDeaths.csv"
+    description: "Accidental Deaths in the US 1973-1978"
+  - name: USArrests
+    path: "USArrests.csv"
+    description: "Violent Crime Rates by US State"
+  - name: USJudgeRatings
+    path: "USJudgeRatings.csv"
+    description: "Lawyers' Ratings of State Judges in the US Superior Court"
+  - name: USPersonalExpenditure
+    path: "USPersonalExpenditure.csv"
+    description: "Personal Expenditure Data"
+  - name: UScitiesD
+    path: "UScitiesD.csv"
+    description: "Distances Between European Cities and Between US Cities"
+  - name: VADeaths
+    path: "VADeaths.csv"
+    description: "Death Rates in Virginia (1940)"
+  - name: WWWusage
+    path: "WWWusage.csv"
+    description: "Internet Usage per Minute"
+  - name: WorldPhones
+    path: "WorldPhones.csv"
+    description: "The World's Telephones"
+  - name: "ability.cov"
+    path: "ability.cov.csv"
+    description: "Ability and Intelligence Tests"
+  - name: airmiles
+    path: "airmiles.csv"
+    description: "Passenger Miles on Commercial US Airlines, 1937-1960"
+  - name: airquality
+    path: "airquality.csv"
+    description: "New York Air Quality Measurements"
+  - name: anscombe
+    path: "anscombe.csv"
+    description: "Anscombe's Quartet of 'Identical' Simple Linear Regressions"
+  - name: attenu
+    path: "attenu.csv"
+    description: "The Joyner-Boore Attenuation Data"
+  - name: attitude
+    path: "attitude.csv"
+    description: "The Chatterjee-Price Attitude Data"
+  - name: austres
+    path: "austres.csv"
+    description: "Quarterly Time Series of the Number of Australian Residents"
+  - name: "beaver1 (beavers)"
+    path: "beaver1 (beavers).csv"
+    description: "Body Temperature Series of Two Beavers"
+  - name: "beaver2 (beavers)"
+    path: "beaver2 (beavers).csv"
+    description: "Body Temperature Series of Two Beavers"
+  - name: cars
+    path: "cars.csv"
+    description: "Speed and Stopping Distances of Cars"
+  - name: chickwts
+    path: "chickwts.csv"
+    description: "Chicken Weights by Feed Type"
+  - name: co2
+    path: "co2.csv"
+    description: "Mauna Loa Atmospheric CO2 Concentration"
+  - name: crimtab
+    path: "crimtab.csv"
+    description: "Student's 3000 Criminals Data"
+  - name: discoveries
+    path: "discoveries.csv"
+    description: "Yearly Numbers of Important Discoveries"
+  - name: esoph
+    path: "esoph.csv"
+    description: "Smoking, Alcohol and (O)esophageal Cancer"
+  - name: euro
+    path: "euro.csv"
+    description: "Conversion Rates of Euro Currencies"
+  - name: "euro.cross (euro)"
+    path: "euro.cross (euro).csv"
+    description: "Conversion Rates of Euro Currencies"
+  - name: eurodist
+    path: "eurodist.csv"
+    description: "Distances Between European Cities and Between US Cities"
+  - name: faithful
+    path: "faithful.csv"
+    description: "Old Faithful Geyser Data"
+  - name: "fdeaths (UKLungDeaths)"
+    path: "fdeaths (UKLungDeaths).csv"
+    description: "Monthly Deaths from Lung Diseases in the UK"
+  - name: freeny
+    path: "freeny.csv"
+    description: "Freeny's Revenue Data"
+  - name: "freeny.x (freeny)"
+    path: "freeny.x (freeny).csv"
+    description: "Freeny's Revenue Data"
+  - name: "freeny.y (freeny)"
+    path: "freeny.y (freeny).csv"
+    description: "Freeny's Revenue Data"
+  - name: infert
+    path: "infert.csv"
+    description: "Infertility after Spontaneous and Induced Abortion"
+  - name: iris
+    path: "iris.csv"
+    description: "Edgar Anderson's Iris Data"
+  - name: iris3
+    path: "iris3.csv"
+    description: "Edgar Anderson's Iris Data"
+  - name: islands
+    path: "islands.csv"
+    description: "Areas of the World's Major Landmasses"
+  - name: "ldeaths (UKLungDeaths)"
+    path: "ldeaths (UKLungDeaths).csv"
+    description: "Monthly Deaths from Lung Diseases in the UK"
+  - name: lh
+    path: "lh.csv"
+    description: "Luteinizing Hormone in Blood Samples"
+  - name: longley
+    path: "longley.csv"
+    description: "Longley's Economic Regression Data"
+  - name: lynx
+    path: "lynx.csv"
+    description: "Annual Canadian Lynx trappings 1821-1934"
+  - name: "mdeaths (UKLungDeaths)"
+    path: "mdeaths (UKLungDeaths).csv"
+    description: "Monthly Deaths from Lung Diseases in the UK"
+  - name: morley
+    path: "morley.csv"
+    description: "Michelson Speed of Light Data"
+  - name: mtcars
+    path: "mtcars.csv"
+    description: "Motor Trend Car Road Tests"
+  - name: nhtemp
+    path: "nhtemp.csv"
+    description: "Average Yearly Temperatures in New Haven"
+  - name: nottem
+    path: "nottem.csv"
+    description: "Average Monthly Temperatures at Nottingham, 1920-1939"
+  - name: npk
+    path: "npk.csv"
+    description: "Classical N, P, K Factorial Experiment"
+  - name: occupationalStatus
+    path: "occupationalStatus.csv"
+    description: "Occupational Status of Fathers and their Sons"
+  - name: precip
+    path: "precip.csv"
+    description: "Annual Precipitation in US Cities"
+  - name: presidents
+    path: "presidents.csv"
+    description: "Quarterly Approval Ratings of US Presidents"
+  - name: pressure
+    path: "pressure.csv"
+    description: "Vapor Pressure of Mercury as a Function of Temperature"
+  - name: quakes
+    path: "quakes.csv"
+    description: "Locations of Earthquakes off Fiji"
+  - name: randu
+    path: "randu.csv"
+    description: "Random Numbers from Congruential Generator RANDU"
+  - name: rivers
+    path: "rivers.csv"
+    description: "Lengths of Major North American Rivers"
+  - name: rock
+    path: "rock.csv"
+    description: "Measurements on Petroleum Rock Samples"
+  - name: sleep
+    path: "sleep.csv"
+    description: "Student's Sleep Data"
+  - name: "stack.loss (stackloss)"
+    path: "stack.loss (stackloss).csv"
+    description: "Brownlee's Stack Loss Plant Data"
+  - name: "stack.x (stackloss)"
+    path: "stack.x (stackloss).csv"
+    description: "Brownlee's Stack Loss Plant Data"
+  - name: stackloss
+    path: "stackloss.csv"
+    description: "Brownlee's Stack Loss Plant Data"
+  - name: "state.abb (state)"
+    path: "state.abb (state).csv"
+    description: "US State Facts and Figures"
+  - name: "state.area (state)"
+    path: "state.area (state).csv"
+    description: "US State Facts and Figures"
+  - name: "state.center (state)"
+    path: "state.center (state).csv"
+    description: "US State Facts and Figures"
+  - name: "state.division (state)"
+    path: "state.division (state).csv"
+    description: "US State Facts and Figures"
+  - name: "state.name (state)"
+    path: "state.name (state).csv"
+    description: "US State Facts and Figures"
+  - name: "state.region (state)"
+    path: "state.region (state).csv"
+    description: "US State Facts and Figures"
+  - name: "state.x77 (state)"
+    path: "state.x77 (state).csv"
+    description: "US State Facts and Figures"
+  - name: "sunspot.month"
+    path: "sunspot.month.csv"
+    description: "Monthly Sunspot Data, from 1749 to \"Present\""
+  - name: "sunspot.year"
+    path: "sunspot.year.csv"
+    description: "Yearly Sunspot Data, 1700-1988"
+  - name: sunspots
+    path: "sunspots.csv"
+    description: "Monthly Sunspot Numbers, 1749-1983"
+  - name: swiss
+    path: "swiss.csv"
+    description: "Swiss Fertility and Socioeconomic Indicators (1888) Data"
+  - name: treering
+    path: "treering.csv"
+    description: "Yearly Treering Data, -6000-1979"
+  - name: trees
+    path: "trees.csv"
+    description: "Girth, Height and Volume for Black Cherry Trees"
+  - name: uspop
+    path: "uspop.csv"
+    description: "Populations Recorded by the US Census"
+  - name: volcano
+    path: "volcano.csv"
+    description: "Topographic Information on Auckland's Maunga Whau Volcano"
+  - name: warpbreaks
+    path: "warpbreaks.csv"
+    description: "The Number of Breaks in Yarn during Weaving"
+  - name: women
+    path: "women.csv"
+    description: "Average Heights and Weights for American Women"
+...
