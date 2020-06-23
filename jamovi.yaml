@@ -14,12 +14,6 @@ datasets:
   - name: AirPassengers
     path: "AirPassengers.csv"
     description: "Monthly Airline Passenger Numbers 1949-1960"
-  - name: BJsales
-    path: BJsales.csv
-    description: "Sales Data with Leading Indicator"
-  - name: BOD
-    path: "BOD.csv"
-    description: "Biochemical Oxygen Demand"
   - name: CO2
     path: "CO2.csv"
     description: "Carbon Dioxide Uptake in Grass Plants"
@@ -110,9 +104,6 @@ datasets:
   - name: USPersonalExpenditure
     path: "USPersonalExpenditure.csv"
     description: "Personal Expenditure Data"
-  - name: UScitiesD
-    path: "UScitiesD.csv"
-    description: "Distances Between European Cities and Between US Cities"
   - name: VADeaths
     path: "VADeaths.csv"
     description: "Death Rates in Virginia (1940)"
@@ -122,45 +113,21 @@ datasets:
   - name: WorldPhones
     path: "WorldPhones.csv"
     description: "The World's Telephones"
-  - name: "ability.cov"
-    path: "ability.cov.csv"
-    description: "Ability and Intelligence Tests"
-  - name: airmiles
-    path: "airmiles.csv"
-    description: "Passenger Miles on Commercial US Airlines, 1937-1960"
   - name: airquality
     path: "airquality.csv"
     description: "New York Air Quality Measurements"
   - name: anscombe
     path: "anscombe.csv"
     description: "Anscombe's Quartet of 'Identical' Simple Linear Regressions"
-  - name: attenu
-    path: "attenu.csv"
-    description: "The Joyner-Boore Attenuation Data"
   - name: attitude
     path: "attitude.csv"
     description: "The Chatterjee-Price Attitude Data"
-  - name: austres
-    path: "austres.csv"
-    description: "Quarterly Time Series of the Number of Australian Residents"
-  - name: "beaver1 (beavers)"
-    path: "beaver1 (beavers).csv"
-    description: "Body Temperature Series of Two Beavers"
-  - name: "beaver2 (beavers)"
-    path: "beaver2 (beavers).csv"
-    description: "Body Temperature Series of Two Beavers"
   - name: cars
     path: "cars.csv"
     description: "Speed and Stopping Distances of Cars"
   - name: chickwts
     path: "chickwts.csv"
     description: "Chicken Weights by Feed Type"
-  - name: co2
-    path: "co2.csv"
-    description: "Mauna Loa Atmospheric CO2 Concentration"
-  - name: crimtab
-    path: "crimtab.csv"
-    description: "Student's 3000 Criminals Data"
   - name: discoveries
     path: "discoveries.csv"
     description: "Yearly Numbers of Important Discoveries"
@@ -170,26 +137,11 @@ datasets:
   - name: euro
     path: "euro.csv"
     description: "Conversion Rates of Euro Currencies"
-  - name: "euro.cross (euro)"
-    path: "euro.cross (euro).csv"
-    description: "Conversion Rates of Euro Currencies"
-  - name: eurodist
-    path: "eurodist.csv"
-    description: "Distances Between European Cities and Between US Cities"
   - name: faithful
     path: "faithful.csv"
     description: "Old Faithful Geyser Data"
-  - name: "fdeaths (UKLungDeaths)"
-    path: "fdeaths (UKLungDeaths).csv"
-    description: "Monthly Deaths from Lung Diseases in the UK"
   - name: freeny
     path: "freeny.csv"
-    description: "Freeny's Revenue Data"
-  - name: "freeny.x (freeny)"
-    path: "freeny.x (freeny).csv"
-    description: "Freeny's Revenue Data"
-  - name: "freeny.y (freeny)"
-    path: "freeny.y (freeny).csv"
     description: "Freeny's Revenue Data"
   - name: infert
     path: "infert.csv"
@@ -203,9 +155,6 @@ datasets:
   - name: islands
     path: "islands.csv"
     description: "Areas of the World's Major Landmasses"
-  - name: "ldeaths (UKLungDeaths)"
-    path: "ldeaths (UKLungDeaths).csv"
-    description: "Monthly Deaths from Lung Diseases in the UK"
   - name: lh
     path: "lh.csv"
     description: "Luteinizing Hormone in Blood Samples"
@@ -215,9 +164,6 @@ datasets:
   - name: lynx
     path: "lynx.csv"
     description: "Annual Canadian Lynx trappings 1821-1934"
-  - name: "mdeaths (UKLungDeaths)"
-    path: "mdeaths (UKLungDeaths).csv"
-    description: "Monthly Deaths from Lung Diseases in the UK"
   - name: morley
     path: "morley.csv"
     description: "Michelson Speed of Light Data"
@@ -260,36 +206,9 @@ datasets:
   - name: sleep
     path: "sleep.csv"
     description: "Student's Sleep Data"
-  - name: "stack.loss (stackloss)"
-    path: "stack.loss (stackloss).csv"
-    description: "Brownlee's Stack Loss Plant Data"
-  - name: "stack.x (stackloss)"
-    path: "stack.x (stackloss).csv"
-    description: "Brownlee's Stack Loss Plant Data"
   - name: stackloss
     path: "stackloss.csv"
     description: "Brownlee's Stack Loss Plant Data"
-  - name: "state.abb (state)"
-    path: "state.abb (state).csv"
-    description: "US State Facts and Figures"
-  - name: "state.area (state)"
-    path: "state.area (state).csv"
-    description: "US State Facts and Figures"
-  - name: "state.center (state)"
-    path: "state.center (state).csv"
-    description: "US State Facts and Figures"
-  - name: "state.division (state)"
-    path: "state.division (state).csv"
-    description: "US State Facts and Figures"
-  - name: "state.name (state)"
-    path: "state.name (state).csv"
-    description: "US State Facts and Figures"
-  - name: "state.region (state)"
-    path: "state.region (state).csv"
-    description: "US State Facts and Figures"
-  - name: "state.x77 (state)"
-    path: "state.x77 (state).csv"
-    description: "US State Facts and Figures"
   - name: "sunspot.month"
     path: "sunspot.month.csv"
     description: "Monthly Sunspot Data, from 1749 to \"Present\""
